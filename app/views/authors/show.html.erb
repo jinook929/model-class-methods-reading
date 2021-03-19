@@ -3,3 +3,7 @@
 <% @author.posts.each do |post| %>
   <div><%= post.title %></div>
 <% end %>
+
+<%= link_to "Back to Artists", authors_path %>
+ | 
+ <%= link_to "Back to Posts", posts_path %>
